@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("collection")
-public class CollectionController {
+@RequestMapping("arraylist")
+public class ArrayListController {
 
     private final ArrayListService arrayListService;
 
-    public CollectionController(ArrayListService arrayListService) {
+    public ArrayListController(ArrayListService arrayListService) {
         this.arrayListService = arrayListService;
     }
 
